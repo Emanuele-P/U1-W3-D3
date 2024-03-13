@@ -46,8 +46,7 @@ function newElement() {
 
   for (let i = 0; i < close.length; i++) {
     close[i].onclick = function () {
-      const div = this.parentElement
-      div.style.display = 'none'
+      this.parentNode.remove()
     }
   }
 }
