@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-inline: auto;
+  background-color: #d3f8e6;
+  font-family: 'Noto Sans', sans-serif;
+  color: #191818;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+#container {
+  margin-inline: auto;
+  margin-block-start: 3rem;
+  background-color: white;
+  box-shadow: 0px 5px 14px 0px #7d7d7d;
+  border-radius: 10px;
+  width: 30rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  background-image: url(../SeekPng.com_graph-paper-png_910970.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+section {
+  margin: 0;
+  background-color: #f9ce60;
+  padding: 2rem;
+  color: white;
+  width: 100%;
+  top: 0;
+  margin-bottom: 2rem;
+  background-image: url(../pngwing.com.png);
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#addElement {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #e6ad1d;
+  border-radius: 50%;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
+
+.button:hover {
+  background-color: #ffe5a4;
+  color: #191818;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #191818;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+ul li:hover {
+  background-color: #f9ce60;
+}
